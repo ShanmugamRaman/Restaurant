@@ -1,0 +1,10 @@
+Order Fulfillment Approach:
+
+1.	Receive the customer name.
+2.	Accept the Food Items id from the customer - Multiple food id should be entered by comma.
+3.	Check if there are chefs available for preparing the variety of food ordered
+	a.	If chefs are available, 
+		.	Set setAvailable of that chef as false.
+		.	Add the order to the restaurant.
+		.	Leave a message to the Customer with the Estimated Delivery Time.
+	b.	If chefs are not available for one of the variety also, leave a message to the Customer: "Chefs are busy now.. Please try again later..!". 
